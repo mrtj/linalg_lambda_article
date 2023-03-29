@@ -130,11 +130,12 @@ plt.show()
 print(f'np.linalg.lstsq coef={coef:.04f}, bias={bias:.04f}')
 ```
 
-![np.linalg.lstsq model](lstsq.png "np.linalg.lstsq model")
+![numpy.linalg.lstsq model](lstsq.png "numpy.linalg.lstsq model")
 
 ```text
 np.linalg.lstsq coef=16.6335, bias=13.0453
 ```
 
 We can also see that the model estimates a coefficient of 16.6335 and a bias of 13.0453 for the underlying data that are quite good approximates of the ground truth 16.7483 and 13.0000 values.
+
 
